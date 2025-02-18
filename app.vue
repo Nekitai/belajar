@@ -3,9 +3,9 @@
 
 <template>
   <div>
-    <AppHeader />
-    <div>mari kita belajar</div>
-    <UiButton />
-    <Footer />
+    <NuxtLoadingIndicator :throttle="0"  />
+    <NuxtLayout>
+      <NuxtPage />
+    </NuxtLayout>
   </div>
 </template>
